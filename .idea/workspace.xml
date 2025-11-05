@@ -91,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762343714848</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Wrote the code to IF, input">
+      <option name="closed" value="true" />
+      <created>1762344049558</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1762344049558</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
