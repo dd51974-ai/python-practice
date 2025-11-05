@@ -9,6 +9,9 @@ if number > 5:
 else:
     print("X is less than 5.")
 
+for i in range(5):
+    print("Numbers now", i)
+
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     name = input("What's your name?")
