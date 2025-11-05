@@ -9,8 +9,20 @@ if number > 5:
 else:
     print("X is less than 5.")
 
+#for
 for i in range(5):
     print("Numbers now", i)
+
+#range()
+fruits = ["Apple", "Banana", "Cherry"]
+for fruit in fruits:
+    print(fruit)
+
+def npb(baseball_team):
+    baseball_team = ["Tigers", "Baystars", "Giants", "Dragons", "Carp", "Swallows"]
+    for team in baseball_team:
+        print(team)
+
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
@@ -24,5 +36,6 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
+    npb('team')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
