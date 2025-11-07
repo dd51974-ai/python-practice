@@ -24,7 +24,7 @@ def central_league(central_team):
         print(team)
 
 def pacific_league(pacific_team):
-    pacific_team = ["Hawks", "Fighters", "Buffallows", "Eagls", "Lions", "Marrines"]
+    pacific_team = ["Hawks", "Fighters", "Buffalo's", "Eagles", "Lions", "Marines"]
     for team in pacific_team:
         print(team)
 
@@ -40,14 +40,17 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
-    npb = input("Which do you know them?")
-    for select in npb:
-        if npb == "central":
-            print(central_league('team'))
-        elif npb == "pacific":
-            print(pacific_league('team'))
-        else:
-            npb
 
+    while True:
+        npb = input("Which do you know them for Central or Pacific ?")
+        for select in npb:
+            if npb == "central":
+                print(central_league('team'))
+                break
+            elif npb == "pacific":
+                print(pacific_league('team'))
+                break
+            else:
+                break
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
