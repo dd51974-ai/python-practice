@@ -18,11 +18,15 @@ fruits = ["Apple", "Banana", "Cherry"]
 for fruit in fruits:
     print(fruit)
 
-def npb(baseball_team):
-    baseball_team = ["Tigers", "Baystars", "Giants", "Dragons", "Carp", "Swallows"]
-    for team in baseball_team:
+def central_league(central_team):
+    central_team = ["Tigers", "Bay stars", "Giants", "Dragons", "Carp", "Swallows"]
+    for team in central_team:
         print(team)
 
+def pacific_league(pacific_team):
+    pacific_team = ["Hawks", "Fighters", "Buffallows", "Eagls", "Lions", "Marrines"]
+    for team in pacific_team:
+        print(team)
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
@@ -36,6 +40,14 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
-    npb('team')
+    npb = input("Which do you know them?")
+    for select in npb:
+        if npb == "central":
+            print(central_league('team'))
+        elif npb == "pacific":
+            print(pacific_league('team'))
+        else:
+            npb
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
