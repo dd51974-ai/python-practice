@@ -39,18 +39,17 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    print_hi("Pycharm")
 
     while True:
         npb = input("Which do you know them for Central or Pacific ?")
-        for select in npb:
-            if npb == "central":
-                print(central_league('team'))
-                break
-            elif npb == "pacific":
-                print(pacific_league('team'))
-                break
-            else:
-                break
+
+        if npb == "central":
+            central_league('team')
+        elif npb == "pacific":
+            pacific_league('team')
+        elif npb == "exit":
+            print("Goodbye!!")
+            break
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
